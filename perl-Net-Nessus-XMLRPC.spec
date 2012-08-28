@@ -21,6 +21,7 @@ Requires:	perl(HTTP::Request::Common)
 Requires:	perl(LWP::UserAgent)
 Requires:	perl(Net::SSL)
 Requires:	perl(XML::Simple)
+Provides:	perl(Net::Nessus::XMLRPC) = %{version}
 
 %{?perl_default_filter}
 
