@@ -5,7 +5,7 @@ Release:	1%{?dist}
 Summary:	Communicate with Nessus scanner(v4.2+) via XMLRPC
 
 Group:		Development/Libraries
-License:	Artistic/GPL
+License:	GPL+ or Artistic
 URL:		http://search.cpan.org/dist/Net-Nessus-XMLRPC/
 Source0:	http://search.cpan.org/CPAN/authors/id/K/KO/KOST/Net-Nessus-XMLRPC-%{version}.tar.gz
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
