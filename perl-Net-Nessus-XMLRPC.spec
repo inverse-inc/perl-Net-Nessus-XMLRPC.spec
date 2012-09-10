@@ -10,7 +10,7 @@ URL:		http://search.cpan.org/dist/Net-Nessus-XMLRPC/
 Source0:	http://search.cpan.org/CPAN/authors/id/K/KO/KOST/Net-Nessus-XMLRPC-%{version}.tar.gz
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
-BuildArch: 	noarch
+BuildArch:	noarch
 BuildRequires:	perl(ExtUtils::MakeMaker)
 BuildRequires:	perl(HTTP::Request::Common)
 BuildRequires:	perl(LWP::UserAgent)
@@ -65,5 +65,5 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
-* Tue Aug 14 2012 Olivier Bilodeau <olivier@bottomlesspit.org> - 0.30-1
+* Mon Sep 10 2012 Olivier Bilodeau <olivier@bottomlesspit.org> - 0.30-1
 - Initial release.
