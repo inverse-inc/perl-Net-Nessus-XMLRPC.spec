@@ -1,4 +1,4 @@
-%define		real_name Net-Nessus-XMLRPC
+%global		real_name Net-Nessus-XMLRPC
 Name:		perl-%{real_name}
 Version:	0.30
 Release:	1%{?dist}
@@ -7,7 +7,7 @@ Summary:	Communicate with Nessus scanner(v4.2+) via XMLRPC
 Group:		Development/Libraries
 License:	GPL+ or Artistic
 URL:		http://search.cpan.org/dist/Net-Nessus-XMLRPC/
-Source0:	http://search.cpan.org/CPAN/authors/id/K/KO/KOST/Net-Nessus-XMLRPC-%{version}.tar.gz
+Source0:	http://search.cpan.org/CPAN/authors/id/K/KO/KOST/%{real_name}-%{version}.tar.gz
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
 BuildArch:	noarch
@@ -21,7 +21,6 @@ Requires:	perl(HTTP::Request::Common)
 Requires:	perl(LWP::UserAgent)
 Requires:	perl(Net::SSL)
 Requires:	perl(XML::Simple)
-Provides:	perl(Net::Nessus::XMLRPC) = %{version}
 
 %{?perl_default_filter}
 
