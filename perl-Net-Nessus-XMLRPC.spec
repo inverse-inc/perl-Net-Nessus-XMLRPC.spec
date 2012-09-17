@@ -1,7 +1,7 @@
 %global		real_name Net-Nessus-XMLRPC
 Name:		perl-%{real_name}
 Version:	0.30
-Release:	1%{?dist}
+Release:	2%{?dist}
 Summary:	Communicate with Nessus scanner(v4.2+) via XMLRPC
 
 Group:		Development/Libraries
@@ -64,5 +64,8 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
-* Mon Sep 10 2012 Olivier Bilodeau <olivier@bottomlesspit.org> - 0.30-1
+* Mon Sep 10 2012 Olivier Bilodeau <olivier@bottomlesspit.org> - 0.30-2
+- Implemented review recommandations
+
+* Tue Aug 14 2012 Olivier Bilodeau <olivier@bottomlesspit.org> - 0.30-1
 - Initial release.
